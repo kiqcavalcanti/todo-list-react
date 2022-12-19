@@ -1,0 +1,23 @@
+.withoutTask {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgb(100, 100, 100, .6);
+  border-radius: 8px;
+  margin-top: 1.5rem;
+}
+
+
+.withoutTask > img {
+  height: 3.5rem;
+  width: 3.5rem;
+  filter: brightness(2.5);
+  border: 8px;
+  margin: 3rem 0 1rem 0;
+}
+
+.msg {
+  font-weight: 700;
+  line-height: 1.5rem;
+}

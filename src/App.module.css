@@ -1,0 +1,19 @@
+.wrapper {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media(max-width: 768px) {
+
+  html {
+    font-size: 87.5%;
+  }
+}
+
+@media(max-width: 308px) {
+
+  html {
+    font-size: 75%;
+  }
+}
